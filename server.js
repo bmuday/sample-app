@@ -1,12 +1,12 @@
 const express = require("express");
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 // Middlewares
 const app = express();
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("<h1>My node app</h1>");
+  res.send("<h1>Docker is easy!</h1>");
 });
 
 // Server
